@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-image: url('splash.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  color: bisque;
+}
+
+
+
+h1 {
+  font-size: 3rem;
+}
+
+.Inside {
+  height: 60vh;
+  width: 20rem;
+  padding: 2rem; 
+  margin-left: 42rem;
+  background-color: grey;
+  opacity: 0.7;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .Inside {
+    width: 15rem;
+    padding: 2rem; 
+    margin-left:2.3rem;
+    background-color: grey;
+    opacity: 0.7;
+    color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+  }
+}
+
+
